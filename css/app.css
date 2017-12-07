@@ -1,15 +1,23 @@
 body {
   background-color: #E0FFFF;
-width:
+width:10000px
+}
+
+#inspo {
+  background-color: #E0FFFF;
+  width: 1000px;
+  padding: 20px 10px 20px 10px;
+  border: 2px solid blue;
 }
 
 
 #canvas {
   width: 10000px;
   background-color: #E0FFFF;
+  overflow: hidden;
   position: relative;
   top: 200px;
-  border: 1px solid red;
+  border: none;
   height: 700px;
 }
 
@@ -17,6 +25,14 @@ width:
   position: absolute;
   top: 0;
   left: 8000px;
+  height: 700px;
+  z-index: 3;
+}
+
+#whaleback {
+  position: absolute;
+  top: 270px;
+  left: 8700px;
   height: 700px;
   z-index: 3;
 }
@@ -37,6 +53,32 @@ width:
   z-index: 2;
 }
 
+#cloud {
+position: absolute;
+top:150px;
+left: 100px;
+height: 200px;
+width: 300px;
+
+}
+
+#fish {
+  position: relative;
+  top: 100px;
+  left: 5000px;
+  height:160px;
+  width: 200px;
+  z-index: 5;
+}
+
+#sharkfin {
+  position: absolute;
+  top:420px;
+  left:7000px;
+  height: 600px;
+  width: 600px;
+  z-index: 2;
+}
 
 #frontwave {
   position:absolute;
